@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Promisw</title>
+    <script src="js/jquery-1.11.0.min.js"></script>
+</head>
+<body>
+    <script type="text/javascript">
+        let p1 = new Promise(function(resolve, reject) {
+            //写自己的承诺
+            //三秒后发送ajax请求数据
+            setTimeout(() => {
+                //resolve() 方法
+                resolve();
+            }, 3000)
+        })
+        //履行承诺
+        p1.then(() => {
+            //写承诺 返回一个Promise l类对象
+            return new Promise((resolve, reject) => {
+                //承诺 发送请求获得 日志请求
+                $.ajax({
+                    type:"get",
+                    url:"user/uid?id=10",
+                    //成功调用方法
+                    success(data){resolve(data)},
+                    //失败
+                    error(excetionDate){reject(excetionDate)}
+                });
+
+            })
+        }).then((data) => {
+            //履行承诺2 根据用户id 获得日志
+            $.get("user/uid?id=10", function(data) {
+                console.log(data)
+                //发送请求 查询当前用户的日子
+                $.get(`user/province?pid=${data.id}`,(data)=>{
+                    console.log(data.pid)
+                    console.log(data.pname)
+                })
+            },"json")
+        },(excepriDate)=>{
+            //处理失败
+            console.log("出错了!")
+        })
+    </script>
+</body>
+</html>

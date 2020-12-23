@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="promisepojo" />
+        <module name="promiseService" />
+        <module name="promiseWeb" />
+        <module name="usersyspojo" />
+        <module name="usersysservice" />
+        <module name="usersysweb" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="promiseparrent" target="1.8" />
+      <module name="promisepojo" target="1.8" />
+      <module name="promiseService" target="1.8" />
+      <module name="promiseWeb" target="1.8" />
+      <module name="usersysparent" target="1.8" />
+      <module name="usersyspojo" target="1.8" />
+      <module name="usersysservice" target="1.8" />
+      <module name="usersystemplate" target="1.8" />
+      <module name="usersysweb" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

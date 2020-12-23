@@ -1,0 +1,15 @@
+  #配置应用的名称
+spring:
+  application:
+    name: userService
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/db9?serverTimezone=GMT
+    username: root
+    password: root
+    type: com.alibaba.druid.pool.DruidDataSource
+mybatis:
+  type-aliases-package: com.icis.pojo
+  configuration:
+      map-underscore-to-camel-case: true
+

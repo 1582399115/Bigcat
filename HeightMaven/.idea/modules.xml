@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/promiseparrent/promiseService/promiseService.iml" filepath="$PROJECT_DIR$/promiseparrent/promiseService/promiseService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/promiseparrent/promiseWeb/promiseWeb.iml" filepath="$PROJECT_DIR$/promiseparrent/promiseWeb/promiseWeb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/promiseparrent/promiseparrent.iml" filepath="$PROJECT_DIR$/promiseparrent/promiseparrent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/promiseparrent/promisepojo/promisepojo.iml" filepath="$PROJECT_DIR$/promiseparrent/promisepojo/promisepojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/usersysparent/usersysparent.iml" filepath="$PROJECT_DIR$/usersysparent/usersysparent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/usersysparent/usersyspojo/usersyspojo.iml" filepath="$PROJECT_DIR$/usersysparent/usersyspojo/usersyspojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/usersysparent/usersysservice/usersysservice.iml" filepath="$PROJECT_DIR$/usersysparent/usersysservice/usersysservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/usersysparent/usersysweb/usersysweb.iml" filepath="$PROJECT_DIR$/usersysparent/usersysweb/usersysweb.iml" />
+    </modules>
+  </component>
+</project>
